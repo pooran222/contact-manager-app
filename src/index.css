@@ -1,0 +1,26 @@
+body {
+background-color: #282a36;
+  font-family: 'Vazir','tahoma','Ubuntu' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder{
+  color: #f8f8f4;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+  color: #f3e5f5 !important;
+  background-color: #5e35b1!important;
+  border-color:#d1c4e9!important;
+}
+form-control{
+  background-color:#4a148c !important;
+  color: #f8f8f4 !important;
+  border-color:#673ab7 !important;
+}
+nav-ink{
+  color:#35b13b
+}
