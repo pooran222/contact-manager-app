@@ -1,6 +1,6 @@
 {
-  "homepage": "https://pooran222.github.io/contacts-manager-app",
-  "name": "contacts-manager-app",
+ 
+  "name": "contact-manager-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
