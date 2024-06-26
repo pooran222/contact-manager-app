@@ -10,7 +10,7 @@ import {EditContact,Navbar,Contacts,ViewContact,AddContact} from "./components";
 import { GiConfirmed } from "react-icons/gi";
 import { MdOutlineCancel } from "react-icons/md";
 import MyForm from "./components/MyForm";
-import React, { useState } from "react";
+
 import { ToastContainer,toast } from "react-toastify";
 import _ from 'lodash';
 import {confirmAlert} from "react-confirm-alert"

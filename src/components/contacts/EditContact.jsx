@@ -1,4 +1,4 @@
-import { useEffect,useState } from "react";
+import { useEffect} from "react";
 import { Link ,useNavigate,useParams } from "react-router-dom";
 import { useContext } from "react";
 
@@ -13,12 +13,12 @@ import {getContact,updateContact} from "../../services/contactServices";
 import {ORANGE ,PURPLE, COMMENT}  from "../../helpers/Color/Colors";
 import { contactSchema } from "../../validations/ContactValidation";
 
-import { ToastContainer,toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 const EditContact=()=>{
 const {contactId} = useParams();
 
 const {
-  contacts,
+ 
   setContacts,
   setFilteredContacts,
   loading,
